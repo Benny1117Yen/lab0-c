@@ -23,6 +23,7 @@ typedef struct ELE {
     struct ELE *next;
 } list_ele_t;
 
+/* Fisrt modification. */
 /* Queue structure */
 typedef struct {
     list_ele_t *head; /* Linked list of elements */
