@@ -24,6 +24,8 @@ typedef struct ELE {
 } list_ele_t;
 
 /* Fisrt modification. */
+/*second. */
+
 /* Queue structure */
 typedef struct {
     list_ele_t *head; /* Linked list of elements */
