@@ -40,7 +40,7 @@ void q_free(queue_t *q)
 {
     /* How about freeing the list elements and the strings? */
     if (q == NULL)
-        return 0;
+        return NULL;
     list_ele_t *ptr = q->head;
     list_ele_t *prev = NULL;
 
