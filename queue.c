@@ -73,7 +73,7 @@ bool q_insert_head(queue_t *q, char *s)
         return false;
 
     /* Don't forget to allocate space for the string and copy it */
-    char *value = malloc((srlen(s) + 1) * sizeof(char));
+    char *value = malloc((strlen(s) + 1) * sizeof(char));
     if (value == NULL) {
         free(newh);
         return false;
